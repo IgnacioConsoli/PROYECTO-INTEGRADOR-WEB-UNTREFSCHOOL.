@@ -4,4 +4,9 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  display: flex;
+  
+}
+
 /*# sourceMappingURL=style.css.map */
