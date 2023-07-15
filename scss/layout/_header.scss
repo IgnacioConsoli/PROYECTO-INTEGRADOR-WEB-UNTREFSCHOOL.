@@ -1,0 +1,25 @@
+.nav {
+    background-color: #4a997f;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.nav {
+    background-color: #eeff006b;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-lista {
+    display: flex;
+    list-style-type: none;
+    padding: 1.5rem;
+    gap: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
