@@ -1,49 +1,126 @@
-.h1-main{
+.h1-main {
     display: flex;
     text-align: center;
-    background-image: url(../assets/img/michael-marsh-U0dBV_QeiYk-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1186&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     height: 42rem;
     align-items: center;
     justify-content: center;
-  } 
+}
+
 .div-quienes-somos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
-        grid-auto-columns: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row; 
-        grid-template-areas:
-            "Quienes-somos Quienes-somos Quienes-somos aside aside aside"
-            "Quienes-somos Quienes-somos Quienes-somos aside aside aside"
-            "Imagen Imagen Imagen Parrafo Parrafo Parrafo"
-            "Imagen Imagen Imagen Parrafo Parrafo Parrafo"
-            "Imagen Imagen Imagen Parrafo Parrafo Parrafo";
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Quienes-somos Quienes-somos Quienes-somos aside aside aside"
+        "Quienes-somos Quienes-somos Quienes-somos aside aside aside"
+        "Imagen Imagen Imagen Parrafo Parrafo Parrafo"
+        "Imagen Imagen Imagen Parrafo Parrafo Parrafo"
+        "Imagen Imagen Imagen Parrafo Parrafo Parrafo";
+}
 
-    .Imagen {
-        grid-area: Imagen;
-        margin: 2rem;
-        display: flex;
-        width: 15rem;
-        height: 15rem;
-        
+.Imagen {
+    grid-area: Imagen;
+    margin: 2rem;
+    display: flex;
+    width: 15rem;
+    height: 15rem;
 
-    }
 
-    .Parrafo { 
-        grid-area: Parrafo;
-    }
+}
 
-    .Quienes-somos {
-        grid-area: Quienes-somos;
-        padding: 2rem;
-        
-    }
+.Parrafo {
+    grid-area: Parrafo;
+}
 
-    .aside {
-        grid-area: aside;
-    }
+.Quienes-somos {
+    grid-area: Quienes-somos;
+    padding: 2rem;
+
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.section-padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "pqe pqe pqe aside aside aside"
+        "pqe pqe pqe aside aside aside"
+        "prrfo prrfo prrfo imgg imgg imgg"
+        "prrfo prrfo prrfo imgg imgg imgg"
+        "prrfo prrfo prrfo imgg imgg imgg";
+}
+
+.pqe {
+    grid-area: pqe;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.prrfo {
+    grid-area: prrfo;
+}
+
+.imgg {
+    grid-area: imgg;
+}
+
+.sect-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.propuesta {
+    font-size: xx-large;
+    margin-left: 8rem;
+}
+
+.section-ultimas-noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "tun tun tun tun tun tun"
+        "tun tun tun tun tun tun"
+        "titulo-p titulo-p titulo-p titulo-p-2 titulo-p-2 titulo-p-2"
+        "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2"
+        "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2";
+}
+
+.tun {
+    grid-area: tun;
+}
+
+.titulo-p {
+    grid-area: titulo-p;
+}
+
+.parrafoo {
+    grid-area: parrafoo;
+}
+
+.parrafoo-2 {
+    grid-area: parrafoo-2;
+}
+
+.titulo-p-2 {
+    grid-area: titulo-p-2;
+}
 
