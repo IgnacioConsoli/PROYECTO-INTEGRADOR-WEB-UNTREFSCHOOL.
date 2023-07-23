@@ -11,6 +11,7 @@
 
 .div-quienes-somos {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -36,6 +37,7 @@
 
 .Parrafo {
     grid-area: Parrafo;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Quienes-somos {
@@ -50,6 +52,7 @@
 
 .section-padre {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -77,6 +80,7 @@
 
 .imgg {
     grid-area: imgg;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sect-cards {
@@ -85,11 +89,14 @@
 }
 
 .propuesta {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     font-size: xx-large;
     margin-left: 8rem;
 }
 
 .section-ultimas-noticias {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
@@ -102,6 +109,9 @@
         "titulo-p titulo-p titulo-p titulo-p-2 titulo-p-2 titulo-p-2"
         "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2"
         "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2";
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        
 }
 
 .tun {
@@ -114,10 +124,12 @@
 
 .parrafoo {
     grid-area: parrafoo;
+    font-family: 'Poppins', sans-serif;
 }
 
-.parrafoo-2 {
+.parrafo-2 {
     grid-area: parrafoo-2;
+    font-family: 'Poppins', sans-serif;
 }
 
 .titulo-p-2 {

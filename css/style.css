@@ -8,18 +8,52 @@
   display: flex;
 }
 
-.nav {
-  background-color: #4a997f;
-  font-size: 2rem;
+.redes-sociales {
+  display: grid;
   align-items: center;
-  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "redes redes instituto instituto contacto contacto" "sociales sociales mapa mapa contactoo contactoo" "sociales sociales mapa mapa contactoo contactoo" "aside aside aside aside aside aside";
+}
+
+.mapa {
+  grid-area: mapa;
+  list-style-type: none;
+}
+
+.instituto {
+  grid-area: instituto;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.redes {
+  grid-area: redes;
+}
+
+.sociales {
+  grid-area: sociales;
+}
+
+.contacto {
+  grid-area: contacto;
+}
+
+.contactoo {
+  grid-area: contactoo;
 }
 
 .nav {
-  background-color: rgba(238, 255, 0, 0.4196078431);
+  background-color: rgba(252, 113, 0, 0.6078431373);
   font-size: 2rem;
   align-items: center;
   width: 100%;
+  font-family: "Belanosima", sans-serif;
 }
 
 .nav-lista {
@@ -47,6 +81,7 @@
 
 .div-quienes-somos {
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -65,6 +100,7 @@
 
 .Parrafo {
   grid-area: Parrafo;
+  font-family: "Poppins", sans-serif;
 }
 
 .Quienes-somos {
@@ -78,6 +114,7 @@
 
 .section-padre {
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -100,6 +137,7 @@
 
 .imgg {
   grid-area: imgg;
+  font-family: "Poppins", sans-serif;
 }
 
 .sect-cards {
@@ -108,6 +146,8 @@
 }
 
 .propuesta {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
   font-size: xx-large;
   margin-left: 8rem;
 }
@@ -120,6 +160,8 @@
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "tun tun tun tun tun tun" "tun tun tun tun tun tun" "titulo-p titulo-p titulo-p titulo-p-2 titulo-p-2 titulo-p-2" "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2" "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2";
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .tun {
@@ -132,10 +174,12 @@
 
 .parrafoo {
   grid-area: parrafoo;
+  font-family: "Poppins", sans-serif;
 }
 
-.parrafoo-2 {
+.parrafo-2 {
   grid-area: parrafoo-2;
+  font-family: "Poppins", sans-serif;
 }
 
 .titulo-p-2 {
