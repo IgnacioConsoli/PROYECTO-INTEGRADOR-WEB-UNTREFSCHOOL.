@@ -10,6 +10,7 @@
 }
 
 .div-quienes-somos {
+    border-top-style: solid;
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -27,10 +28,10 @@
 
 .Imagen {
     grid-area: Imagen;
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
-    width: 15rem;
-    height: 15rem;
+    width: 22rem;
+    height: 21rem;
 
 
 }
@@ -38,6 +39,7 @@
 .Parrafo {
     grid-area: Parrafo;
     font-family: 'Poppins', sans-serif;
+    border-right: 4rem;
 }
 
 .Quienes-somos {
@@ -51,8 +53,10 @@
 }
 
 .section-padre {
+    border-top-style: solid;
     display: grid;
     justify-items: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -64,6 +68,7 @@
         "prrfo prrfo prrfo imgg imgg imgg"
         "prrfo prrfo prrfo imgg imgg imgg"
         "prrfo prrfo prrfo imgg imgg imgg";
+
 }
 
 .pqe {
@@ -76,32 +81,36 @@
 
 .prrfo {
     grid-area: prrfo;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4rem;
 }
 
 .imgg {
     grid-area: imgg;
-    font-family: 'Poppins', sans-serif;
+    display: flex;
 }
 
-.sect-cards {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .propuesta {
+    
     margin-top: 4rem;
     margin-bottom: 5rem;
     font-size: xx-large;
     margin-left: 8rem;
 }
+.sect-cards {
+    display: flex;
+    justify-content: space-around;
+}
 
 .section-ultimas-noticias {
-    
+    margin-left: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr;
     grid-auto-columns: 1fr;
-    gap: 0px 0px;
+    gap: 0rem 8rem;
     grid-auto-flow: row;
     grid-template-areas:
         "tun tun tun tun tun tun"
