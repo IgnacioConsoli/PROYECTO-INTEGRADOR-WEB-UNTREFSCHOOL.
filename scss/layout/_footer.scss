@@ -1,5 +1,5 @@
 .redes-sociales{
-    margin-left: 4rem;
+    border-top-style: solid;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -29,12 +29,12 @@
 
 .redes {
     grid-area: redes;
-
+    margin-left: 4rem;
 }
 
 .sociales {
     grid-area: sociales;
-    
+    margin-left: 4rem;
     
 }
 

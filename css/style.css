@@ -50,15 +50,20 @@ button {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 button:hover {
   background-color: #45a049;
 }
 
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    width: 117%;
+  }
+}
 .redes-sociales {
-  margin-left: 4rem;
+  border-top-style: solid;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -84,10 +89,12 @@ button:hover {
 
 .redes {
   grid-area: redes;
+  margin-left: 4rem;
 }
 
 .sociales {
   grid-area: sociales;
+  margin-left: 4rem;
 }
 
 .contacto {
@@ -194,6 +201,11 @@ button:hover {
 .imgg {
   grid-area: imgg;
   display: flex;
+}
+
+#id-propuesta {
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
 .propuesta {
