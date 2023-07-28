@@ -56,10 +56,55 @@ button:hover {
   background-color: #45a049;
 }
 
-@media screen and (max-width: 768px) {
-  .nav {
+@media (max-width: 768px) {
+  .nav-lista {
+    font-size: 1.5rem;
+  }
+  section .h1-main {
+    height: 73vh;
+  }
+  main .div-quienes-somos {
+    grid-template-rows: 0fr 0.5fr 0.5fr 1fr 1fr;
+  }
+  main .section-padre {
+    grid-template-rows: 0fr 0.5fr 1.5fr 1fr 1fr;
+  }
+  section .prrfo {
+    margin-left: 3rem;
+    font-size: medium;
+  }
+  section .imgg {
+    width: 24rem;
+  }
+  section .sect-cards {
+    width: 46rem;
+    gap: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  main .section-ultimas-noticias {
+    gap: 0rem 3rem;
+    grid-template-rows: 0fr 0.5fr 0.5fr 1fr 1fr;
+    align-items: end;
+  }
+  section .titulo-p-2 {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  footer .redes-sociales {
+    gap: 0px 30px;
+  }
+  section .iframe {
+    width: 257px;
+    height: 280px;
+  }
+  section .nombre {
     display: flex;
-    width: 117%;
+    justify-content: center;
+  }
+  section .sociales {
+    margin-bottom: 8rem;
   }
 }
 .redes-sociales {
