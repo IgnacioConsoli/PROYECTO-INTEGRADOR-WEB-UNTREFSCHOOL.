@@ -66,25 +66,28 @@ button:hover {
   main .div-quienes-somos {
     grid-template-rows: 0fr 0.5fr 0.5fr 1fr 1fr;
   }
+  div .Parrafo {
+    font-size: small;
+  }
   main .section-padre {
     grid-template-rows: 0fr 0.5fr 1.5fr 1fr 1fr;
   }
   section .prrfo {
     margin-left: 3rem;
-    font-size: medium;
+    font-size: small;
   }
   section .imgg {
     width: 24rem;
   }
   section .sect-cards {
     width: 46rem;
-    gap: 4rem;
+    gap: 2rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
   }
   main .section-ultimas-noticias {
     gap: 0rem 3rem;
-    grid-template-rows: 0fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-rows: 0fr 0.5fr 0.5fr 1fr 4fr;
     align-items: end;
   }
   section .titulo-p-2 {
@@ -105,6 +108,27 @@ button:hover {
   }
   section .sociales {
     margin-bottom: 8rem;
+  }
+}
+@media (max-width: 320px) {
+  section .sect-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section .h1-main {
+    width: 100vw;
+  }
+  main .div-quienes-somos {
+    grid-template-columns: 10rem 10rem 10rem 13rem 2rem 0rem;
+    grid-template-rows: 8rem 1rem 19.5rem 12rem 4rem;
+  }
+  div .Imagen {
+    width: 27rem;
+    height: 27rem;
+  }
+  div .Quienes-somos {
+    font-size: 2.5rem;
   }
 }
 .redes-sociales {
