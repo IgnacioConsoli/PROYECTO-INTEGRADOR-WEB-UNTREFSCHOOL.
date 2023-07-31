@@ -148,13 +148,6 @@ button:hover {
     grid-template-columns: 5rem 7rem 10rem 6rem 8rem 2rem;
   }
 }
-body {
-  display: grid;
-  gap: 1rem;
-  grid-auto-rows: 22rem;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-}
-
 .redes-sociales {
   border-top-style: solid;
   display: grid;
