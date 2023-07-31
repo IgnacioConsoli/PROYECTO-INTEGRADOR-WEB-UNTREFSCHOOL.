@@ -119,6 +119,7 @@ button:hover {
   main .div-quienes-somos {
     grid-template-columns: 10rem 10rem 10rem 13rem 2rem 0rem;
     grid-template-rows: 8rem 1rem 19.5rem 12rem 4rem;
+    display: block;
   }
   div .Imagen {
     width: 27rem;
@@ -147,6 +148,13 @@ button:hover {
     grid-template-columns: 5rem 7rem 10rem 6rem 8rem 2rem;
   }
 }
+body {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
 .redes-sociales {
   border-top-style: solid;
   display: grid;
