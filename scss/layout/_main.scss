@@ -32,8 +32,6 @@
     display: flex;
     width: 22rem;
     height: 21rem;
-
-
 }
 
 .Parrafo {
@@ -45,7 +43,6 @@
 .Quienes-somos {
     grid-area: Quienes-somos;
     padding: 2rem;
-
 }
 
 .aside {
@@ -68,7 +65,6 @@
         "prrfo prrfo prrfo imgg imgg imgg"
         "prrfo prrfo prrfo imgg imgg imgg"
         "prrfo prrfo prrfo imgg imgg imgg";
-
 }
 
 .pqe {
@@ -90,18 +86,19 @@
     display: flex;
 }
 
-#id-propuesta{
+#id-propuesta {
     border-top-style: solid;
     border-bottom-style: solid;
 }
 
 .propuesta {
-    
+
     margin-top: 4rem;
     margin-bottom: 5rem;
     font-size: xx-large;
     margin-left: 8rem;
 }
+
 .sect-cards {
     display: flex;
     justify-content: space-around;
@@ -121,10 +118,8 @@
         "titulo-p titulo-p titulo-p titulo-p-2 titulo-p-2 titulo-p-2"
         "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2"
         "parrafoo parrafoo parrafoo parrafoo-2 parrafoo-2 parrafoo-2";
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        
-        
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .tun {
@@ -148,4 +143,3 @@
 .titulo-p-2 {
     grid-area: titulo-p-2;
 }
-
