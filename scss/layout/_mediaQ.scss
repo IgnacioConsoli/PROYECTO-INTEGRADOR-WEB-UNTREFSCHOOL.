@@ -73,20 +73,45 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        
     }
-    section .h1-main{
-        width: 100vw;
-    }
-    main .div-quienes-somos{
+
+    main .div-quienes-somos {
         grid-template-columns: 10rem 10rem 10rem 13rem 2rem 0rem;
         grid-template-rows: 8rem 1rem 19.5rem 12rem 4rem;
     }
-    div .Imagen{
+
+    div .Imagen {
         width: 27rem;
         height: 27rem;
     }
-    div .Quienes-somos{
+
+    div .Quienes-somos {
         font-size: 2.5rem;
     }
+
+    main .section-padre {
+        grid-template-columns: 2rem 1rem 13rem 15rem 14rem 2rem;
+    }
+
+    section .imgg {
+        width: 29rem;
+    }
+
+    section .pqe {
+        font-size: 1.5rem;
+    }
+
+    section .tun {
+        font-size: 2rem;
+    }
+
+    main .section-ultimas-noticias {
+        grid-template-columns: 2rem 6rem 7rem 9rem 4rem 3rem;
+        margin-left: 1rem;
+    }
+
+    footer .redes-sociales {
+        grid-template-columns: 5rem 7rem 10rem 6rem 8rem 2rem;
+    }
+
 }
