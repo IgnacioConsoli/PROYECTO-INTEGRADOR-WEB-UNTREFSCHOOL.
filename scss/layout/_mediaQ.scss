@@ -20,7 +20,7 @@
     }
 
     section .prrfo {
-        margin-left: 3rem;
+        margin-left: 2rem;
         font-size: small;
     }
 
@@ -69,34 +69,48 @@
 }
 
 @media (max-width: 320px) {
-    section .sect-cards {
-        flex-direction: row;
+    nav .nav-lista{
         flex-wrap: wrap;
-        justify-content: center;
+    }
+    section .h1-main{
+        height: 25vh;
+    }
+    section .propuesta{
+        margin-left: 1rem;
+    }
+    section .sect-cards {
+        width: 100vw;
+        flex-direction: column;
+        
     }
 
     main .div-quienes-somos {
-        grid-template-columns: 10rem 10rem 10rem 13rem 2rem 0rem;
-        grid-template-rows: 8rem 1rem 19.5rem 12rem 4rem;
+        display: block;
+        display: flex;
+        flex-direction: column;
         
     }
-    
+    div .Parrafo{
+        margin-left: 2rem;
+    }
 
     div .Imagen {
-        width: 27rem;
-        height: 27rem;
+        width: 18rem;
+        height: 18rem;
     }
 
     div .Quienes-somos {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     main .section-padre {
-        grid-template-columns: 2rem 1rem 13rem 15rem 14rem 2rem;
+        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     section .imgg {
-        width: 29rem;
+        width: 18rem;
     }
 
     section .pqe {
@@ -108,11 +122,25 @@
     }
 
     main .section-ultimas-noticias {
-        grid-template-columns: 2rem 6rem 7rem 9rem 4rem 3rem;
-        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 2rem;
+        width: 73vw;
     }
 
     footer .redes-sociales {
-        grid-template-columns: 5rem 7rem 10rem 6rem 8rem 2rem;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .sociales{
+        margin-bottom: 3rem;
+
+    }
+    section .iframe{
+        margin-bottom: 2rem;
     }
 }
